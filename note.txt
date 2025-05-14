@@ -1,0 +1,1 @@
+mongodb+srv://puda14:Egh987ns!@cluster0.fopimxo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
