@@ -1,1 +1,77 @@
 mongodb+srv://puda14:Egh987ns!@cluster0.fopimxo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+http://localhost:3000/api/suggest
+
+body:
+{
+  "fullName": "Nguyen Van A",
+  "personalEmail": "nva@gmail.com",
+  "schoolEmail": "nva@soict.hust.edu.vn",
+  "studentId": "20206123",
+  "course": "K66",
+  "school": "Trường Công nghệ Thông tin và Truyền thông",
+  "major": "Khoa học máy tính",
+  "class": "CNTT2",
+  "techSkills": "Lập trình Python, AI, Data Science",
+  "softSkills": "Làm việc nhóm, thuyết trình",
+  "careerGoals": "Làm việc trong lĩnh vực AI, Data Science",
+  "achievements": "Giải Ba cuộc thi AI Hackathon",
+  "languageSkills": "Tiếng Anh IELTS 6.5"
+}
+
+
+response:
+{
+    "suggestions": [
+        {
+            "_id": "682450160b2a454d8fa14c2e",
+            "name": "Phòng thí nghiệm Công nghệ AI",
+            "reason": "Phù hợp với kỹ năng và định hướng nghề nghiệp AI của sinh viên."
+        },
+        {
+            "_id": "682450160b2a454d8fa14c31",
+            "name": "Phòng thí nghiệm Khoa học Dữ liệu",
+            "reason": "Phù hợp với kỹ năng Data Science và định hướng nghề nghiệp của sinh viên."
+        },
+        {
+            "_id": "682450160b2a454d8fa14c2a",
+            "name": "Câu lạc bộ Sáng tạo Sinh viên (SINNO Club)",
+            "reason": "Cơ hội tham gia Hackathon, phát triển dự án thực tế liên quan đến AI."
+        },
+        {
+            "_id": "682450160b2a454d8fa14c2b",
+            "name": "Câu lạc bộ Robotics",
+            "reason": "Có workshop về AI, liên quan đến lĩnh vực AI và kỹ năng lập trình."
+        },
+        {
+            "_id": "682450160b2a454d8fa14c32",
+            "name": "Phòng thí nghiệm Mạng và Bảo mật",
+            "reason": "Phát triển kỹ năng lập trình và liên quan đến ứng dụng AI trong bảo mật."
+        },
+        {
+            "_id": "682450160b2a454d8fa14c35",
+            "name": "Phòng thí nghiệm Công nghệ Giáo dục",
+            "reason": "Có thể áp dụng kỹ năng lập trình vào phát triển ứng dụng giáo dục AI."
+        },
+        {
+            "_id": "682450160b2a454d8fa14c37",
+            "name": "Câu lạc bộ HUST Global Talk",
+            "reason": "Nâng cao kỹ năng tiếng Anh, cần thiết cho sự nghiệp quốc tế trong AI."
+        },
+        {
+            "_id": "682450160b2a454d8fa14c2d",
+            "name": "Câu lạc bộ Chế tạo",
+            "reason": "Phát triển kỹ năng sáng tạo và làm việc nhóm."
+        },
+        {
+            "_id": "682450160b2a454d8fa14c2f",
+            "name": "Phòng thí nghiệm Blockchain",
+            "reason": "Mở rộng kiến thức về công nghệ, có thể kết hợp với AI."
+        },
+        {
+            "_id": "682450160b2a454d8fa14c36",
+            "name": "Câu lạc bộ Kỹ thuật Cơ khí",
+            "reason": "Phát triển kỹ năng thực hành và làm việc nhóm."
+        }
+    ]
+}
