@@ -1,50 +1,10 @@
 // Constants for predefined values
-const image = "https://hust.edu.vn/uploads/sys/news/2023_06/cbo_0362.jpg"; // HUST image
-const robot_image =
-  "https://scontent.fhan2-3.fna.fbcdn.net/v/t39.30808-1/337076057_921738645640922_127205912336207823_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=101&ccb=1-7&_nc_sid=2d3e12&_nc_eui2=AeG9KmGgsa9Sj66kVudyjvc1lxeIM49MHJ6XF4gzj0wcnhhRd_Zxkurp_oiKugY58NKha9TWQAhzxOwxrXxjWPtk&_nc_ohc=NcidTe6Dg9IQ7kNvwGbZOQq&_nc_oc=AdkJGHM8ceaq7hMVXu7XEwft-AO858N9UUIKVRsf9vnZ3mzyugOltvUh1L5792SF7Q8&_nc_zt=24&_nc_ht=scontent.fhan2-3.fna&_nc_gid=-hR0h-b2pNeQmkSnkkoQsg&oh=00_AfLCSymw6jtCnOmqocuunIv1jgRoZsP4Z3UEal7IgpyXyA&oe=68310AE0";
-const media_club_image =
-  "https://hust.edu.vn/assets/sys/news/2021/05/573837.jpg";
-const football_team_image =
-  "https://hust.edu.vn/uploads/sys/news/2024_12/dsc_4692.jpg";
-const music_club_image =
-  "https://scontent.fhan2-3.fna.fbcdn.net/v/t39.30808-6/489860116_1175608344575953_2029728173949378543_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=111&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeErefAvDGq_HqLVhucFxfgodQrAHmWRwiJ1CsAeZZHCIl4eNWp0wAjQWVdRWrQcSymguITKWT-hZC9O1KThS6XC&_nc_ohc=CjlN96WsO4EQ7kNvwGASPCF&_nc_oc=AdkSYijiIbJ5--ADWinnBnyg_5dCwcG4jY5ef79-qHday0wEvk4Esqo_mLHGAU0KxGc&_nc_zt=23&_nc_ht=scontent.fhan2-3.fna&_nc_gid=zuxvDGSjOho-IulMvQTY0g&oh=00_AfLK34sS6SBoqGqSKpAvid9Zk69KfNxhMFGNkFs6HQIRaw&oe=6830EFB5";
-
-const art_club_image =
-  "https://c8.alamy.com/comp/R20ND6/colorful-typography-illustration-featuring-the-words-art-club-decorated-with-a-color-palette-a-paint-brush-a-pencil-and-a-piece-of-paper-R20ND6.jpg";
-const culture_club_image =
-  "https://soict.hust.edu.vn/wp-content/uploads/taiko.jpg";
-
-const hust_image1 =
-  "https://hust.edu.vn/uploads/sys/news/2021/05/reinvent-cover.571399.26327.jpg";
-const hust_image2 =
-  "https://hust.edu.vn/uploads/sys/news/2022_11/a8bc2693-338f-410e-aace-9c05bef1ada3.jpeg";
-const hust_image3 =
-  "https://hust.edu.vn/uploads/sys/news/2025_02/20250214-cbo_8235.jpg";
-const hust_image4 =
-  "https://hust.edu.vn/uploads/sys/news/2022_11/c1a47692-9dac-42ef-bb03-ee13c2a0e1fc.jpeg";
-const hust_image5 =
-  "https://hust.edu.vn/uploads/sys/news/2021/05/pic-1.571399.26328.jpg";
-const hust_image6 =
-  "https://hust.edu.vn/uploads/sys/news/2021/05/reinvent-3.571399.26330.jpg";
-const hust_image7 =
-  "https://hust.edu.vn/uploads/sys/news/2023_10/20231012-tsp_9004.jpg";
-const hust_image8 = "https://hust.edu.vn/uploads/sys/news/2019/12/501307.jpg";
-const hust_image9 =
-  "https://vov2.vov.vn/sites/default/files/styles/large/public/2023-06/13.jpg";
-const hust_image10 =
-  "https://hust.edu.vn/uploads/sys/news/2024_02/20231213-cbo_1032.jpg";
-const hust_logo =
-  "https://upload.wikimedia.org/wikipedia/en/8/8e/%C4%90%E1%BA%A1i_h%E1%BB%8Dc_B%C3%A1ch_khoa_H%C3%A0_N%E1%BB%99i_%28logo%29.png";
+const image = "https://hust.edu.vn/uploads/sys/news/2023_06/cbo_0362.jpg";
 
 // Define the types of entities
 const ENTITY_TYPES = {
   CLUB: "club",
   LAB: "lab",
-  FOOTBALL: "football",
-  MUSIC: "music",
-  ART: "art",
-  CULTURE: "culture",
-  MEDIA: "media",
 };
 
 // Define the faculties or departments
@@ -67,7 +27,7 @@ const clubs = [
     name: "Câu lạc bộ Sáng tạo Sinh viên (SINNO Club)",
     executive_board: {
       chairman: "Nguyen Binh An",
-      mentor: ["Nguyen Dich Nhat Minh", "Kha Minh Bao", "Nguyen Hong Viet"],
+      mentor: ["Nguyen Van A", "Tran Thi B", "Le Van C"],
     },
     description: `Câu lạc bộ Sáng tạo Sinh viên (SINNO Club) trực thuộc Trường Công nghệ Thông tin và Truyền thông (SoICT), Đại học Bách khoa Hà Nội, là môi trường dành cho sinh viên đam mê công nghệ và sáng tạo. Với mục tiêu xây dựng môi trường nghiên cứu, học tập và đổi mới sáng tạo, SINNO Club cung cấp điều kiện và cộng đồng cho sinh viên kết nối ý tưởng và hợp tác phát triển.
 
@@ -91,50 +51,8 @@ const clubs = [
     ],
     belongTo: FACULTIES.SOICT,
     contact: "sinno.soict@gmail.com",
-    image:
-      "https://scontent.fhan2-5.fna.fbcdn.net/v/t39.30808-6/474505359_1147062854095987_6955759576379322941_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeG6cutALC5548sk2xRQSzXfxnJ8pqKcwbPGcnymopzBsyAaJmz_MyXJYP2lN8KlxYMPU6Pu_ajuU1HV6eSVH8Re&_nc_ohc=M9p-WbcAIIoQ7kNvwGGW-GJ&_nc_oc=AdmUshi_puf_2bROVGGEVtLPrdBg5Ix06FfUdmeK6fC89XHtvKZEoTOdxeGSS31Awo0&_nc_zt=23&_nc_ht=scontent.fhan2-5.fna&_nc_gid=mXPN1DtthJqFA97sFnZPAg&oh=00_AfIFQbKq3exYc81SaZOtSPls39MWFC2FCxVlnEEW_i0ZsQ&oe=683118C7",
+    image,
     gallery: [image, image, image],
-    website: "http://sinno.soict.ai/",
-    socialMediaLinks: {
-      facebook: "https://www.facebook.com/SINNOclub",
-      instagram: "https://www.facebook.com/SINNOclub",
-      twitter: "https://www.facebook.com/SINNOclub",
-      tiktok: "https://www.facebook.com/SINNOclub",
-      youtube: "https://www.facebook.com/SINNOclub",
-      linkedin: "https://www.facebook.com/SINNOclub",
-      github: "https://github.com/SOICTInnovationClub",
-      discord: "https://www.facebook.com/SINNOclub",
-      telegram: "https://www.facebook.com/SINNOclub",
-    },
-    location: "B1-304",
-    achievements: ["Giải ba SCIC 2025", "Top 8 TechStart 2023"],
-    partnersAndSponsors: ["Neural of Things - NoT", "Innovation Center"],
-    type: ENTITY_TYPES.CLUB,
-  },
-  {
-    name: "Lab BKAI",
-    executive_board: {
-      chairman: "TS. Đinh Viết Sang",
-      mentor: ["Nguyen Phi Le", "Than Quang Khoat", "TS. Đinh Viết Sang"],
-    },
-    description: `
-    Trung tâm Nghiên cứu quốc tế về Trí tuệ nhân tạo BK.AI được thành lập với mục tiêu xây dựng và phát triển một cơ quan nghiên cứu hàng đầu tại Việt Nam, đặc biệt trong việc đào tạo nhân lực trình độ cao về AI và nghiên cứu những nội dung chọn lọc quan trọng về AI. Trung tâm hướng tới xây dựng những nhóm nghiên cứu mạnh, tạo ra các công trình có tầm ảnh hưởng lớn trong khu vực và trên thế giới. Trung tâm cũng chú trọng chuyển giao công nghệ, thúc đẩy việc ứng dụng AI vào thực tiễn.`,
-    numberOfMembers: 50,
-    yearOfEstablishment: 2020,
-    activities: [
-      "Tổ chức các buổi seminar chia sẻ kiến thức.",
-      "Tham gia các cuộc thi Hackathon.",
-      "Phát triển dự án thực tế.",
-    ],
-    criteria: [
-      "Đam mê công nghệ, có kiến thức cơ bản về lập trình.",
-      "Có khả năng làm việc nhóm.",
-    ],
-    belongTo: FACULTIES.SOICT,
-    contact: "sinno.soict@gmail.com",
-    image:
-      "https://scontent.fhan2-3.fna.fbcdn.net/v/t39.30808-6/292787364_413752620812911_1461665317152822517_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGrFF5Z4eElc07N4m5jK0CwPjbVezitjiw-NtV7OK2OLAIcogeT4IPEl_NwE45tMc71EKMGPkUCcZXFy9IFkvHZ&_nc_ohc=o4xRh1J1s48Q7kNvwHcLflS&_nc_oc=AdnW0QkSBcQCPfjSE4Mr1KkCvHmCw0A8lctn4Dj8cybvKSvh15wMmkun7fSXJB_ejLM&_nc_zt=23&_nc_ht=scontent.fhan2-3.fna&_nc_gid=0YCvIULb4vTju2x_wv43vQ&oh=00_AfJ-gMwzGHx2AZ2hMXhguupQs5_LDziYfhoPqJMrqRSz6g&oe=6831080E",
-    gallery: [hust_image1, hust_image3, hust_image10],
     website: "http://sinno.soict.ai/",
     socialMediaLinks: {
       facebook: "https://www.facebook.com/SINNOclub",
@@ -172,9 +90,8 @@ const clubs = [
     ],
     belongTo: FACULTIES.SOICT,
     contact: "robotics.club@soict.edu.vn",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYmciB0Hx3jAxxM_Z_JiOYh3VGBYovvwLtLQ&s",
-    gallery: [hust_image4, hust_image5, hust_image9],
+    image,
+    gallery: [image, image, image],
     website: "http://roboticsclub.soict.edu.vn/",
     socialMediaLinks: {
       facebook: "https://www.facebook.com/RoboticsClubSoICT",
@@ -209,9 +126,8 @@ const clubs = [
     criteria: "Yêu thích nghiên cứu kinh tế, có kiến thức cơ bản về tài chính.",
     belongTo: FACULTIES.SEM,
     contact: "economics.club@sem.edu.vn",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXHP03vPwC7Bnw5Cr6ZLnQNm9gc2Zvyam1cQ&s",
-    gallery: [hust_image4, hust_image2, hust_image6],
+    image,
+    gallery: [image, image, image],
     website: "http://economicsclub.sem.edu.vn/",
     socialMediaLinks: {
       facebook: "https://www.facebook.com/EconomicsClubSem",
@@ -252,9 +168,8 @@ const clubs = [
     ],
     belongTo: FACULTIES.SMSE,
     contact: "maker.club@smse.edu.vn",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpuYWlNLNcHa1s4e8ll0m15Qr1ZVRgx3DgnA&s",
-    gallery: [hust_image3, hust_image8, hust_image4],
+    image,
+    gallery: [image, image, image],
     website: "http://makerclub.smse.edu.vn/",
     socialMediaLinks: {
       facebook: "https://www.facebook.com/MakerClubSMSE",
@@ -292,9 +207,8 @@ const clubs = [
     ],
     belongTo: FACULTIES.SOICT,
     contact: "ai.lab@soict.edu.vn",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4h3aKh6Ptt0qNvuf4S9dHIIFp68x3bx4ObA&s",
-    gallery: [hust_image5, hust_image6, hust_image7],
+    image,
+    gallery: [image, image, image],
     website: "http://ai-lab.soict.edu.vn/",
     socialMediaLinks: {
       facebook: "https://www.facebook.com/AITechnologyLab",
@@ -335,8 +249,8 @@ const clubs = [
     ],
     belongTo: FACULTIES.SOICT,
     contact: "blockchain.lab@soict.edu.vn",
-    image: "https://blog.dktcdn.net/files/blockchain-la-gi-1.jpeg",
-    gallery: [hust_image5, hust_image7, hust_image6, hust_image10],
+    image,
+    gallery: [image, image, image],
     website: "http://blockchainlab.soict.edu.vn/",
     socialMediaLinks: {
       facebook: "https://www.facebook.com/BlockchainLabSoICT",
@@ -377,9 +291,8 @@ const clubs = [
     ],
     belongTo: FACULTIES.SEEE,
     contact: "applied.phys.lab@see.edu.vn",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsVyD7TLhURDl_PO0T4An72mGXyXy0v5XzUA&s",
-    gallery: [hust_image1, hust_image2, hust_image3, hust_image4],
+    image,
+    gallery: [image, image, image],
     website: "http://appliedphyslab.see.edu.vn/",
     socialMediaLinks: {
       facebook: "https://www.facebook.com/AppliedPhysicsLabSEE",
@@ -420,9 +333,8 @@ const clubs = [
     ],
     belongTo: FACULTIES.FAMI,
     contact: "data.science.lab@fami.edu.vn",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMAO9f9obOCUqXRDg1J82cpGnQ4mVCJcQKkQ&s",
-    gallery: [hust_image5, hust_image6, hust_image7, hust_image8],
+    image,
+    gallery: [image, image, image],
     website: "http://datasciencelab.fami.edu.vn/",
     socialMediaLinks: {
       facebook: "https://www.facebook.com/DataScienceLabFami",
@@ -463,9 +375,8 @@ const clubs = [
     ],
     belongTo: FACULTIES.SOICT,
     contact: "network.security.lab@soict.edu.vn",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVs5oOehFuyLO7QeLEU4qhHYjZA95RUKTicA&s",
-    gallery: [hust_image1, hust_image6, hust_image6, hust_image8],
+    image,
+    gallery: [image, image, image],
     website: "http://networksecuritylab.soict.edu.vn/",
     socialMediaLinks: {
       facebook: "https://www.facebook.com/NetworkSecurityLabSoICT",
@@ -506,8 +417,8 @@ const clubs = [
     ],
     belongTo: FACULTIES.SCIS,
     contact: "bio.lab@scis.edu.vn",
-    image: "https://schoolgist.ng/storage/postFiles/BIOCHEMISTRY.jpg",
-    gallery: [hust_image10, hust_image6, hust_image7, hust_image8],
+    image,
+    gallery: [image, image, image],
     website: "http://biochem.scis.edu.vn",
     socialMediaLinks: {
       facebook: "https://facebook.com/AppliedBioChemLab",
@@ -545,9 +456,8 @@ const clubs = [
     ],
     belongTo: FACULTIES.SEP,
     contact: "physics.club@sep.edu.vn",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaFEZBLgoTXZ3BK7whK8ZpU0RA95xbtyFEGA&s",
-    gallery: [hust_image1, hust_image9, hust_image7, hust_image8],
+    image,
+    gallery: [image, image, image],
     website: "#",
     socialMediaLinks: {
       facebook: "https://facebook.com/ExperimentalPhysicsClub",
@@ -585,8 +495,8 @@ const clubs = [
     ],
     belongTo: FACULTIES.FED,
     contact: "edtech.lab@fed.edu.vn",
-    image: "https://soict.hust.edu.vn/wp-content/uploads/EdtechFresher.jpg",
-    gallery: [hust_image1, hust_image6, hust_image10, hust_image8],
+    image,
+    gallery: [image, image, image],
     website: "#",
     socialMediaLinks: {
       facebook: "#",
@@ -624,9 +534,8 @@ const clubs = [
     ],
     belongTo: FACULTIES.SME,
     contact: "mech.club@sme.edu.vn",
-    image:
-      "https://t4.ftcdn.net/jpg/01/01/94/51/360_F_101945192_efxgx8EbWauu9zQApKZaSeaVubiqxHuS.jpg",
-    gallery: [hust_image5, hust_image2, hust_image7, hust_image1],
+    image,
+    gallery: [image, image, image],
     website: "#",
     socialMediaLinks: {
       facebook: "https://facebook.com/MechanicalEngineeringClub",
@@ -664,9 +573,8 @@ const clubs = [
     ],
     belongTo: FACULTIES.SOFL,
     contact: "global.talk@sofl.edu.vn",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgrikiYwSm76R4suVZN8Qnfy9MK9U4Vq9v2Q&s",
-    gallery: [hust_image1, hust_image2],
+    image,
+    gallery: [image, image, image],
     website: "#",
     socialMediaLinks: {
       facebook: "https://facebook.com/HUSTGlobalTalk",
@@ -686,204 +594,6 @@ const clubs = [
     ],
     partnersAndSponsors: ["British Council", "LanguageLink"],
     type: ENTITY_TYPES.CLUB,
-  },
-  {
-    name: "Câu lạc bộ Âm nhạc HUST Melody",
-    executive_board: {
-      chairman: "Nguyen Thanh Lam",
-      mentor: ["Tran Thi Quyen", "Hoang Tuan Anh"],
-    },
-    description: `Câu lạc bộ Âm nhạc HUST Melody là nơi dành cho những sinh viên có niềm đam mê với âm nhạc, từ hát, chơi nhạc cụ đến sản xuất âm nhạc.`,
-    numberOfMembers: 40,
-    yearOfEstablishment: 2013,
-    activities: [
-      "Tổ chức đêm nhạc tại khuôn viên trường.",
-      "Tập luyện biểu diễn thường xuyên.",
-      "Tham gia các cuộc thi âm nhạc sinh viên.",
-    ],
-    criteria: [
-      "Có năng khiếu hoặc yêu thích âm nhạc.",
-      "Tích cực tham gia các hoạt động biểu diễn và tập luyện.",
-    ],
-    belongTo: FACULTIES.SOFH,
-    contact: "melody.club@sofl.edu.vn",
-    image: music_club_image,
-    gallery: [music_club_image],
-    website: "#",
-    socialMediaLinks: {
-      facebook: "https://facebook.com/HUSTMelodyClub",
-      instagram: "#",
-      twitter: "#",
-      tiktok: "#",
-      youtube: "#",
-      linkedin: "#",
-      github: "#",
-      discord: "#",
-      telegram: "#",
-    },
-    location: "C2-102",
-    achievements: ["Top 5 CLB Văn hoá nghệ thuật toàn trường"],
-    partnersAndSponsors: ["HUST Arts Center"],
-    type: ENTITY_TYPES.MUSIC,
-  },
-  {
-    name: "Câu lạc bộ Bóng đá HUST FC",
-    executive_board: {
-      chairman: "Pham Van Khoa",
-      mentor: ["Do Van Thanh", "Le Hoang Phuc"],
-    },
-    description: `CLB Bóng đá HUST FC quy tụ những sinh viên có niềm đam mê với bóng đá, tham gia các giải đấu nội bộ và ngoại khóa.`,
-    numberOfMembers: 35,
-    yearOfEstablishment: 2012,
-    activities: [
-      "Tổ chức các trận đấu giao hữu nội bộ.",
-      "Tham gia giải Bóng đá sinh viên cấp thành.",
-      "Tập luyện định kỳ tại sân vận động HUST.",
-    ],
-    criteria: [
-      "Có thể lực tốt, yêu thích bóng đá.",
-      "Có tinh thần đồng đội và kỷ luật.",
-    ],
-    belongTo: FACULTIES.SME,
-    contact: "hust.fc@sme.edu.vn",
-    image: football_team_image,
-    gallery: [football_team_image],
-    website: "#",
-    socialMediaLinks: {
-      facebook: "https://facebook.com/HUSTFootballClub",
-      instagram: "#",
-      twitter: "#",
-      tiktok: "#",
-      youtube: "#",
-      linkedin: "#",
-      github: "#",
-      discord: "#",
-      telegram: "#",
-    },
-    location: "Sân vận động Bách khoa",
-    achievements: ["Vô địch giải Bóng đá Sinh viên 2023"],
-    partnersAndSponsors: ["Bách Khoa Sport", "BK Store"],
-    type: ENTITY_TYPES.FOOTBALL,
-  },
-  {
-    name: "Câu lạc bộ Truyền thông HUST Media",
-    executive_board: {
-      chairman: "Le Thi Ha",
-      mentor: ["Nguyen Van Quan"],
-    },
-    description: `HUST Media là nơi hội tụ những bạn trẻ yêu thích chụp ảnh, quay phim, viết nội dung và tổ chức sự kiện truyền thông trong trường.`,
-    numberOfMembers: 30,
-    yearOfEstablishment: 2018,
-    activities: [
-      "Tổ chức các chiến dịch truyền thông sự kiện.",
-      "Sản xuất video, ảnh sự kiện trong trường.",
-      "Đào tạo thành viên mới về thiết kế, dựng phim.",
-    ],
-    criteria: [
-      "Yêu thích truyền thông và sáng tạo nội dung.",
-      "Có kỹ năng viết, thiết kế, chụp ảnh là một lợi thế.",
-    ],
-    belongTo: FACULTIES.SOFH,
-    contact: "media.club@sofl.edu.vn",
-    image: media_club_image,
-    gallery: [media_club_image],
-    website: "#",
-    socialMediaLinks: {
-      facebook: "https://facebook.com/HUSTMediaClub",
-      instagram: "#",
-      twitter: "#",
-      tiktok: "#",
-      youtube: "#",
-      linkedin: "#",
-      github: "#",
-      discord: "#",
-      telegram: "#",
-    },
-    location: "C3-205",
-    achievements: ["Top 3 CLB truyền thông toàn HUST năm 2024"],
-    partnersAndSponsors: ["BK Media Hub", "HUST Press"],
-    type: ENTITY_TYPES.MEDIA,
-  },
-  {
-    name: "Câu lạc bộ Nghệ thuật HUST Art Club",
-    executive_board: {
-      chairman: "Nguyen Thi Cam Tu",
-      mentor: ["Hoang Van Minh", "Le Thu Trang"],
-    },
-    description: `HUST Art Club là sân chơi cho các bạn sinh viên đam mê hội hoạ, vẽ tay, vẽ digital, thiết kế sáng tạo và các loại hình nghệ thuật thị giác.`,
-    numberOfMembers: 28,
-    yearOfEstablishment: 2016,
-    activities: [
-      "Vẽ tranh tường cho các sự kiện lớn trong trường.",
-      "Tổ chức workshop về thiết kế và sáng tạo nghệ thuật.",
-      "Triển lãm tranh và sản phẩm nghệ thuật của thành viên.",
-    ],
-    criteria: [
-      "Có đam mê nghệ thuật.",
-      "Muốn phát triển tư duy sáng tạo và kỹ năng thiết kế.",
-    ],
-    belongTo: FACULTIES.FED,
-    contact: "art.club@fed.edu.vn",
-    image: art_club_image,
-    gallery: [art_club_image],
-    website: "#",
-    socialMediaLinks: {
-      facebook: "https://facebook.com/HUSTArtClub",
-      instagram: "#",
-      twitter: "#",
-      tiktok: "#",
-      youtube: "#",
-      linkedin: "#",
-      github: "#",
-      discord: "#",
-      telegram: "#",
-    },
-    location: "D2-302",
-    achievements: ["Top 3 cuộc thi thiết kế sáng tạo 2023"],
-    partnersAndSponsors: ["BK ArtSpace", "Graphic Design Center"],
-    type: ENTITY_TYPES.ART,
-  },
-  {
-    name: "Câu lạc bộ Văn hoá HUST Culture Club",
-    executive_board: {
-      chairman: "Doan Thi Lan",
-      mentor: ["Nguyen Van Huy"],
-    },
-    description: `HUST Culture Club là nơi kết nối sinh viên yêu văn hóa Việt Nam và quốc tế thông qua các hoạt động truyền thống, giao lưu, trình diễn và lễ hội.`,
-    numberOfMembers: 50,
-    yearOfEstablishment: 2015,
-    activities: [
-      "Tổ chức các buổi giới thiệu văn hóa truyền thống.",
-      "Tổ chức lễ hội đa văn hóa và Ngày hội quốc tế.",
-      "Hợp tác với các tổ chức giao lưu sinh viên quốc tế.",
-    ],
-    criteria: [
-      "Quan tâm đến văn hóa và hoạt động ngoại khóa.",
-      "Yêu thích tổ chức sự kiện và giao lưu quốc tế.",
-    ],
-    belongTo: FACULTIES.SOFL,
-    contact: "culture.club@sofl.edu.vn",
-    image: culture_club_image,
-    gallery: [culture_club_image],
-    website: "#",
-    socialMediaLinks: {
-      facebook: "https://facebook.com/HUSTCultureClub",
-      instagram: "#",
-      twitter: "#",
-      tiktok: "#",
-      youtube: "#",
-      linkedin: "#",
-      github: "#",
-      discord: "#",
-      telegram: "#",
-    },
-    location: "C3-301",
-    achievements: ["CLB tổ chức Ngày hội Văn hóa Quốc tế 2023"],
-    partnersAndSponsors: [
-      "HUST Language Center",
-      "International Student Office",
-    ],
-    type: ENTITY_TYPES.CULTURE,
   },
 ];
 

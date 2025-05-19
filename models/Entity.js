@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+const { ENTITY_TYPES } = require("../sampleData");
 
 const entitySchema = new mongoose.Schema({
   name: String,
@@ -32,7 +33,7 @@ const entitySchema = new mongoose.Schema({
   partnersAndSponsors: [String],
   type: {
     type: String,
-    enum: ["club", "lab"],
+    enum: Object.values(ENTITY_TYPES),
   },
 });
 
